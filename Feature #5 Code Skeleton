@@ -1,0 +1,12 @@
+<!-- This is a very simple skeleton for our citation generator. It will need to get the relevant information and make two formats: MLA and APA. -->
+<!-- We might have to modify it since these articles don't have authors and I believe there are versions of APA that don't require the author. -->
+
+<button id="cite-btn" class="btn">Cite This Article</button>
+
+<!-- Citation Pop-up -->
+<div id="citation-maker" class="citation-maker" style="display:none;">
+  <div class="citation-content">
+    <p><strong>MLA:</strong> "Article Title." Riki, Publication Date, URL.</p>
+    <p><strong>APA:</strong> Author Last Name, First Initial. (Year, Month Date Published). Article title. Riki. URL</p>
+  </div>
+</div>
