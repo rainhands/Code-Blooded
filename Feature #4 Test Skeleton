@@ -1,3 +1,8 @@
+User Stories:
+- Epic: As a user with accessibility needs, I want to easily adjust the website's appearance so that I can comfortably read and navigate the content.
+- As a visually impaired user, I want to be able to enable a high contrast mode on the website so that I can read the text more easily.
+- As a user of older age, I want to be able to change the font size of the text on the website so that I can read the text.
+
 Requirements 5
 - There should be a button on the navbar that, when clicked, opens a pop-up window.
 - The pop-up window must contain two checkboxes: one for high contrast mode and one for larger text.
