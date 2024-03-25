@@ -1,5 +1,24 @@
-# This will serve as the skeleton for testing our citation feature
-
-# Test 1 will test that the pop-up button works
-
-# Test 2 will test the correctness of the citations
+Requirements 6
+- There should be a "Generate Citations" button on each article page.
+- Clicking the button should open a pop-up window.
+- The pop-up window should display MLA and APA citations for the article.
+- The citations must include the article title and date published.
+- The citations should be formatted correctly according to the latest MLA and APA guidelines.
+- Users should be able to copy the citations to the clipboard.
+Unit Tests 7
+- Button Visibility Test: Test if the "Generate Citations" button is present on article pages.
+- Button Absence Test: Test that the button is not present on non-article pages.
+- Pop-up Window Test: Test if the pop-up window opens upon clicking the button.
+- Citation Content Test: Test if the pop-up window contains both MLA and APA citations.
+- Citation Format Test: Test if the citations are correctly formatted for both styles.
+- Data Insertion Test: Test if the article title and date are correctly inserted into the citations.
+- Copy Functionality Test: Test if the citations can be copied to the clipboard.
+Integration Tests 2
+- Citation Generation Test: Test the integration of the citation generation logic with the article's metadata (title, date).
+- Pop-Up Display Test: Test the integration of the pop-up functionality with the site's frontend to ensure it displays correctly within the article page context.
+Regression Tests 2
+- Article Page Layout Test: Ensure that the addition of the "Generate Citations" button does not disrupt the layout of the article pages.
+- Existing Functionality Test: Ensure that existing features on the article page continue to work as expected after adding the new citation feature.
+Acceptance Tests 2
+- Citation Accuracy Test: Have users verify that the citations provided are accurate and meet the standards for MLA and APA formats.
+- User Interface Test: Confirm with users that the citation pop-up is user-friendly and that the copy functionality works on various devices and browsers.
