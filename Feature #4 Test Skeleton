@@ -5,10 +5,11 @@ User Stories:
 
 Requirements 5
 - There should be a button on the navbar that, when clicked, opens a pop-up window.
+- The accessibility button should appear on all pages.
 - The pop-up window must contain two checkboxes: one for high contrast mode and one for larger text.
 - When the high contrast mode checkbox is checked, the background color of the site should change to black and the text color should change to yellow.
 - When the larger text checkbox is checked, the text size on the site should increase by 50%.
-- The state of these checkboxes (whether they are checked or not) should be preserved across different pages of the site or after the page is reloaded.
+
 Unit Tests 6
 - Button Display Test: Test if the button is correctly rendered on the navbar.
 - Pop-up Window Render Test: Test if the pop-up window is displayed when the button is clicked.
