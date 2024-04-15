@@ -6,8 +6,8 @@ Requirements 6
 - There should be a "Generate Citations" button on each article page.
 - Clicking the button should open a pop-up window.
 - The pop-up window should display MLA and APA citations for the article.
-- The citations must include the article title and date published.
-- The citations should be formatted correctly according to the latest MLA and APA guidelines.
+- The citations must include the article title and date accessed.
+- The citations should be formatted as closely as possible to the latest MLA and APA guidelines with the available metadata.
 - Users should be able to copy the citations to the clipboard.
 Unit Tests 7
 - Button Visibility Test: Test if the "Generate Citations" button is present on article pages.
