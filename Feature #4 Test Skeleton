@@ -16,7 +16,6 @@ Unit Tests 6
 - Checkbox Render Test: Test if both checkboxes are present in the pop-up window.
 - High Contrast Mode Toggle Test: Test if the background and text color change when the high contrast checkbox is toggled.
 - Larger Text Mode Toggle Test: Test if the text size increases by 50% when the larger text checkbox is toggled.
-- State Preservation Test: Test if the state of the checkboxes is saved and correctly applied when the page is refreshed or navigated.
 Integration Tests 1
 - Interaction Test: Test the interaction between the checkbox state and the display settings to ensure changes are applied site-wide.
 Regression Tests 3
